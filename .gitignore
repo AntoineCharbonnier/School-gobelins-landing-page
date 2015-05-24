@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+node_modules
+build
+*.node
+components
+coverage
+*.orig
+.sass-cache/
+.idea
+sandbox
+gulp.1
+tmp/*
+www
