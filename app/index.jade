@@ -126,88 +126,63 @@ html(lang="en")
             | zzdf d df f dfdfdf dfdfdfd fdfdfd.
           .clear
         .clear
-    //-     h2 about us
-    //-     hr
-    //-     p.text--center At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br> praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br> excepturi sint occaecati cupiditate non provident.
-    //-     ul
-    //-       li#about--li-1
-    //-         img(src="img/mike.jpg" alt="profile" class="about__img")
-    //-         h2.people__title Mike
-    //-         p.text--center CEO / Founder
-    //-         hr
-    //-       li#about--li-2
-    //-         img(src="img/mike.jpg" alt="profile" class="about__img")
-    //-         h2.people__title Taylor
-    //-         p.text--center Graphic Designer
-    //-         hr
-    //-       li#about--li-3
-    //-         img(src="img/mike.jpg" alt="profile" class="about__img")
-    //-         h2.people__title James
-    //-         p.text--center Copywriter 
-    //-         hr
-    //-       li#about--li-4
-    //-         h2.hiring__title We are hiring!
-    //-     .clear
-    //-   .arrow__btn
-    //-     include templates/svgArrowDown
-    //- .clear
 
     .tweets(data-scroll-offset="5800")
       .tweets__container
-        ul
-          li.tweets__li-1
-            h2 First tweet
-            hr
-            p.text--center.tweets__text sdfsdfsd fsdf sdf sdf sddddsdfsdfsdf <br> praesentium voluptatum.
-            h2.tweets__author James
-          li.tweets__li-2
-            h2 Second tweet
-            hr
-            p.text--center.tweets__text kjlkljkl jkl jkl jkljk jkl jkl jkl <br> praesentium voluptatum.
-            h2.tweets__author Bond
-          li.tweets__li-3
-            h2 Third tweet
-            hr
-            p.text--center.tweets__text Accusamus et iusto odio dignissimos ducimus qui blanditiis<br> praesentium voluptatum.
-            h2.tweets__author Mickael
-
+        .tweets__container__content
+          //- img(src="img/06/picto_groupe.png")
+          h1 Preparez vos cours interactifs en ligne
+          p 
+            | BLABLABLABLblabalbbalblablablbalbal 
+            | ds dsk dskz  ddz ds  f d fd fd fd fd
+          input.email(type='text', placeholder="adress@email.com")
+          input.send__btn(type="submit" value="Valider")
 
     .contact(data-scroll-offset="6390")
       .contact__container
-        h2 contact us
-        hr
-        ul
-          li.adress__container
-            h2 address
-            p.text--left 908 New Hampshire Ave NW <br>Washington, DC 20037 <br>(202) 463-5141 <br>Doris Cannon
-            ul.social__list
-                li.facebook
-                li.twitter
-                li.vimeo
-                li.behance
-          li.form__container
-            form
-                .input__block
-                    input.name(type='text', placeholder="Name")
-                    input.email(type='text', placeholder="Email")
-                .input__block
-                    input.tel(type='text', placeholder="Telephone")
-                    input.subject(type='text', placeholder="Subject")
-                textarea.msg.input__message= "Message"
-                input.send__btn(type="submit" value="SEND")
-          .clear
-
+        .contact__container__top
+          h1 Qui sommes nous ?
+        .contact__container__content
+          .contact__container__content--left
+            h2 Antoine Charbonnier
+            h3 Developpeur
+            a(href)
+              h3 Say hello
+          .contact__container__content--right
+            h2 Philippe Neveu
+            h3 Graphiste
+            a(href)
+              h3 Say hello
     .footer
       .footer__container
-        h2.footer__rights
-          | 2014 © 
-          span.colored= "Arcadia."
-          | All Rights Reserved.
+        .footer__container--left
+          h1 title
+          ul
+            li
+              h3 Subtitle
+              img(src="img/08/Logo_editis.png")
+            li
+              h3 Subtitle
+              img(src="img/08/Logo_gobelins.png")
+            li
+              h3 Subtitle
+              img(src="img/08/Logo_cci.png")                              
+        .footer__container--right
+          h1 title
+          p 
+            | BLABLABLABLblabalbbalblablablbalbal 
+            | ds dsk dskz  ddz ds  f d fd fd fd fd
+            | ds dsk dskz  ddz ds  f d fd fd fd fd
 
-        .back__btn
-          h2.back__btn__text back to top 
-          include templates/svgArrowUp
-      .clear
+      //-   h2.footer__rights
+      //-     | 2014 © 
+      //-     span.colored= "Arcadia."
+      //-     | All Rights Reserved.
+
+      //-   .back__btn
+      //-     h2.back__btn__text back to top 
+      //-     include templates/svgArrowUp
+      //- .clear
 
     script(src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js')            
     script(src="js/main.js")
