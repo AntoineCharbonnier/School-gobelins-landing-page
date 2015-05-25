@@ -4,27 +4,28 @@ PagesTypes = require './PagesTypes'
 
 class App
   constructor: () ->
-    # console.log '[APP]'
+    console.log '[APP]'
 
-    # @scrollManager = (require './ScrollManager').get()
+    @scrollManager = (require './ScrollManager').get()
 
-    # @pages = {}
-    # @pages[PagesTypes.INTRO]    = new (require './pages/IntroductionPage')()
-    # @pages[PagesTypes.MEETUS]   = new (require './pages/MeetUsPage')()
-    # @pages[PagesTypes.VIDEO]   = new (require './pages/VideoModule')()
-    # @pages[PagesTypes.SERVICE]  = new (require './pages/ServicePage')()
-    # @pages[PagesTypes.CHECK]  = new (require './pages/CheckPage')()
-    # @pages[PagesTypes.PROJECT]  = new (require './pages/ProjectPage')()
-    # @pages[PagesTypes.PARTNERS] = new (require './pages/PartnersPage')()
-    # @pages[PagesTypes.ABOUT] = new (require './pages/AboutPage')()
-    # @pages[PagesTypes.TWEET] = new (require './pages/TweetsPage')()
+    @pages = {}
+    @pages[PagesTypes.INTRO]    = new (require './pages/IntroductionPage')()
+    @pages[PagesTypes.MENU]   = new (require './pages/MenuPage')()
+    # # @pages[PagesTypes.VIDEO]   = new (require './pages/VideoModule')()
+    @pages[PagesTypes.ONLINE]  = new (require './pages/OnlinePage')()
+    @pages[PagesTypes.CONTROL]  = new (require './pages/ControlPage')()
+    @pages[PagesTypes.REALTIME]  = new (require './pages/RealTimePage')()
+    @pages[PagesTypes.DATA] = new (require './pages/DataPage')()
+    @pages[PagesTypes.GROUPS] = new (require './pages/GroupsPage')()
+    @pages[PagesTypes.KEEP] = new (require './pages/KeepPage')()
     # @pages[PagesTypes.CONTACT]  = new (require './pages/ContactPage')()
+    # @pages[PagesTypes.FOOTER]  = new (require './pages/FooterPage')()
 
 
-    # @scrollManager.addPages @pages
+    @scrollManager.addPages @pages
 
-    # # set top
-    # window.scrollTop = 0
+    # set top
+    window.scrollTop = 0
     # @pages['introduction'].show()
     # @pages['meet-us'].show()
     # @video =  new (require './pages/VideoModule')() 

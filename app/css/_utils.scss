@@ -11,30 +11,46 @@ html, body{
   -webkit-font-smoothing: antialiased;
   min-width: 1170px;
 }
-// h1{
-//   font : normal 700 60px "Proxima";
-//   text-align : center;
-// }
-// h2{
-//   font : normal 700 30px "Proxima";
-//   text-transform: uppercase;
-//   text-align : center;
-//   z-index: 20;
-// }
-// h3{
-//   font : normal 400 18px "Proxima";
-//   text-align : center;
-// }
-// p{
-//   font : normal 400 22px "Proxima";
-// }
-// a{
-//   font : normal 700 30px "Proxima";
-//   text-transform: uppercase;
-//   text-decoration : none;
-//   text-align : center;
-//   z-index: 20;
-// }
+
+h1{
+  font : normal 700 40px "MikadoRegular";
+  text-align : center;
+}
+h2{
+  font : normal 700 20px "MikadoRegular";
+  text-transform: uppercase;
+  text-align : center;
+  z-index: 20;
+}
+h3{
+  font : normal 400 18px "MikadoRegular";
+  text-align : center;
+}
+h4{
+  font : normal 400 15px "MikadoLight";
+  text-align : center;
+}
+h5{
+  font : normal 400 14px "MikadoLight";
+  text-align : center;
+}
+h6{
+  font : normal 400 12px "MikadoLight";
+  text-align : center;
+}
+p{
+  font : normal 400 14px "MikadoRegular";
+}
+input{
+  font : normal 500 10px "MikadoRegular";
+}
+a{
+  font : normal 700 20px "MikadoRegular";
+  // text-transform: uppercase;
+  text-decoration : none;
+  text-align : center;
+  z-index: 20;
+}
 hr{
    position: relative;
    padding: 0;

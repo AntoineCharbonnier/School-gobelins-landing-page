@@ -1,16 +1,12 @@
-.meet{
+.menu{
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	background-color: white;
 	display: table;
 }
-.meet__container{
+.menu__container{
 	display: table-cell;
 	vertical-align: middle;
-	// height: 100px;
-	// p{
-	//   width: 100%;
-	// }
 	background-color: #f0445c;
 	img{
 		width: 200px;
@@ -23,18 +19,13 @@
 		li{
 			width: 30%;
 			display: inline-block;
-				a{
+			a{
 				position: relative;
-				// margin:80px 440px 0 auto;
 				display: block;
-				// color: white;
-				// background-color: white;
         outline: 0;
         text-decoration: none;
 				height: 40px;
 				width: 240px;
-				// @include border-radius(25px,25px);
-				// @include box-shadow(#f0445c 0 0 15px);
 				h3{
 					margin: 0;
 					padding: 10px 0 0 0;
@@ -42,7 +33,6 @@
 					text-align: center;
 					font : normal 400 15px "MikadoRegular";
 				}
-
 			}
 		}
 	}

@@ -10,7 +10,6 @@ html(lang="en")
     link(rel="stylesheet", href="css/main.css")
     
   body
-
     .introduction(data-scroll-offset="0")
       .introduction--background
       .introduction__container.hide
@@ -22,8 +21,8 @@ html(lang="en")
           | façon silencieuse les élèves en difficulté.
         a(href)
           h3 Decouvrir la video
-    .meet(data-scroll-offset="800")
-      .meet__container
+    .menu(data-scroll-offset="900")
+      .menu__container
         img(src="img/01/logo_blanc.svg" alt="Logo HEP")
         ul
           li
@@ -35,18 +34,18 @@ html(lang="en")
           li
             a(href)
               h3 S'inscrire 
-    .video(data-scroll-offset="1070")
-      .video--container
-        include templates/svgPlay
-        include templates/svgPause
-        video.fillWidth(loop='')
-          source(src='/video/startuppreview.mp4', type='video/mp4')
-          | Your browser does not support the video tag. I suggest you upgrade your browser.
+    //- .video(data-scroll-offset="1070")
+    //-   .video--container
+    //-     include templates/svgPlay
+    //-     include templates/svgPause
+    //-     video.fillWidth(loop='')
+    //-       source(src='/video/startuppreview.mp4', type='video/mp4')
+    //-       | Your browser does not support the video tag. I suggest you upgrade your browser.
 
-    .service(data-scroll-offset="1670")
-      .service__container
+    .online(data-scroll-offset="970")
+      .online__container
         img(src="img/02/Ipad_Cours.png")
-        .service__container__content
+        .online__container__content
           img(src="img/02/icone_cours.png")
           h1 Preparez vos cours interactifs en ligne
           p 
@@ -57,9 +56,9 @@ html(lang="en")
           .clear
         .clear
 
-    .check(data-scroll-offset="2570")
-      .check__container
-        .check__container__content_left
+    .control(data-scroll-offset="1800")
+      .control__container
+        .control__container__content_left
           img(src="img/03/Icone_Interactif.png")
           h1 Preparez vos cours interactifs en ligne
           p 
@@ -68,19 +67,19 @@ html(lang="en")
             | tryt iuo ipi iy fdf hhjki iyg ss fhf
             | zzdf d df f dfdfdf dfdfdfd fdfdfd.
           .clear
-        .check__container__content_right
+        .control__container__content_right
           img(src="img/03/interactif_eleve_ipad.png")
           .looper
             img(src="img/03/interactif_prof_ipad.png")
 
 
-    .project(data-scroll-offset="2940")
-      .project__container
-        .project__container_top
+    .real-time(data-scroll-offset="3000")
+      .real-time__container
+        .real-time__container_top
           img(src="img/04/Ipad_prof.png")
           img(src="img/04/Ipad_eleve.png")
           .clear
-        .project__container_bottom
+        .real-time__container_bottom
           img(src="img/04/Identification_picto.png")
           h1 Preparez vos cours interactifs en ligne
           p 
@@ -90,9 +89,10 @@ html(lang="en")
             | zzdf d df f dfdfdf dfdfdfd fdfdfd.
           .clear
       
-    .partners(data-scroll-offset="4051")
-      .partners__container
-        .partners__container_content
+    .data(data-scroll-offset="3500")
+      .data__container
+        .data__container_content--background
+        .data__container_content
           img(src="img/05/picto_identifiez.png")
           h1 Preparez vos cours interactifs en ligne
           p 
@@ -103,20 +103,11 @@ html(lang="en")
           .clear
         img(src="img/05/Classement_Eleves.png")
         .clear
-        //- .partners--background
-        //- h2 our partners
-        //- hr
-        //- ul
-        //-   li.partners__addidas
-        //-   li.partners__google
-        //-   li.partners__samsung
-        //-   li.partners__microsoft
-        //- .clear
 
-    .about(data-scroll-offset="4800")
-      .about__container
+    .groups(data-scroll-offset="4300")
+      .groups__container
         img(src="img/06/Groupe_Img.png")
-        .about__container_content
+        .groups__container_content
           img(src="img/06/picto_groupe.png")
           h1 Preparez vos cours interactifs en ligne
           p 
@@ -126,11 +117,12 @@ html(lang="en")
             | zzdf d df f dfdfdf dfdfdfd fdfdfd.
           .clear
         .clear
+        a(href)
+          h3 Decouvrir la video
 
-    .tweets(data-scroll-offset="5800")
-      .tweets__container
-        .tweets__container__content
-          //- img(src="img/06/picto_groupe.png")
+    .keep(data-scroll-offset="5000")
+      .keep__container
+        .keep__container__content
           h1 Preparez vos cours interactifs en ligne
           p 
             | BLABLABLABLblabalbbalblablablbalbal 
@@ -156,33 +148,21 @@ html(lang="en")
     .footer
       .footer__container
         .footer__container--left
-          h1 title
+          h1 Partenaires
           ul
             li
-              h3 Subtitle
-              img(src="img/08/Logo_editis.png")
+              h3 Professionels
+              img(src="img/08/Logo_editis.png" class="editis")
             li
-              h3 Subtitle
-              img(src="img/08/Logo_gobelins.png")
-            li
-              h3 Subtitle
-              img(src="img/08/Logo_cci.png")                              
+              h3 Scolaires
+              img(src="img/08/Logo_gobelins.png" class="gobelins")
+              img(src="img/08/Logo_cci.png" class="cci")                              
         .footer__container--right
-          h1 title
+          h1 Remerciements
           p 
             | BLABLABLABLblabalbbalblablablbalbal 
             | ds dsk dskz  ddz ds  f d fd fd fd fd
             | ds dsk dskz  ddz ds  f d fd fd fd fd
-
-      //-   h2.footer__rights
-      //-     | 2014 © 
-      //-     span.colored= "Arcadia."
-      //-     | All Rights Reserved.
-
-      //-   .back__btn
-      //-     h2.back__btn__text back to top 
-      //-     include templates/svgArrowUp
-      //- .clear
 
     script(src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js')            
     script(src="js/main.js")

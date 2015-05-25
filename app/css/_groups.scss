@@ -1,0 +1,64 @@
+.groups{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: white;
+}
+.groups__container{
+  display: table-cell;
+  vertical-align: middle; 
+  padding-top: 120px;
+  .groups__container_content{
+      position: relative;
+      width: 40%;
+      top: 100px;
+      margin: 0 auto;
+      float: left;
+      img{
+        position: relative;
+        width: 114px;
+        height: 114px;
+        display: block;
+        margin: 0;
+        left: 0;
+      }
+      h1{
+        float: left;
+        margin: 20px 0 0 0;
+        color: black;
+        text-align: left;
+        width: 100%;
+      }
+      p{
+        float: left;
+        margin: 20px 0 0 0;
+        color: black;
+        text-align: left;
+      }
+    }
+  img{
+    position: relative;
+    width: 546px;
+    height: 548px;
+    float: left;
+    margin: 0 70px;
+  }
+  a{
+    position: relative;
+    margin:80px 440px 0 auto;
+    display: block;
+    color: white;
+    background-color: white;
+    height: 40px;
+    width: 240px;
+    border: 1px solid #f0445c;
+    @include border-radius(25px,25px);
+    h3{
+      margin: 0;
+      padding: 10px 0 0 0;
+      color: #f0445c;
+      text-align: center;
+      font : normal 400 15px "MikadoRegular";
+    }
+  } 
+}

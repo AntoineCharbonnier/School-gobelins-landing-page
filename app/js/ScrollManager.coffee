@@ -10,7 +10,7 @@ class ScrollManager extends ScrollManagerSingleton
     
     @index        = -1
     @pagesOffsets = []
-    @keyArray     = [PagesTypes.INTRO, PagesTypes.MEETUS,PagesTypes.VIDEO, PagesTypes.SERVICE,PagesTypes.CHECK, PagesTypes.PROJECT , PagesTypes.PARTNERS,PagesTypes.ABOUT,PagesTypes.TWEET ,PagesTypes.CONTACT]
+    @keyArray     = [PagesTypes.INTRO, PagesTypes.MENU,PagesTypes.ONLINE, PagesTypes.CONTROL,PagesTypes.REALTIME, PagesTypes.DATA , PagesTypes.GROUPS,PagesTypes.KEEP,PagesTypes.CONTACT ,PagesTypes.FOOTER]
 
 
     @isFirstScroll = yes

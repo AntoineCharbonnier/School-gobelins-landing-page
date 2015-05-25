@@ -1,0 +1,49 @@
+.real-time{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: table;
+}
+.real-time__container{
+  display: table-cell;
+  vertical-align: middle;
+  .real-time__container_top{
+    position: relative;
+    width: 100%;
+    img{
+      position: relative;
+      width: 45%;
+      float: left;
+      margin: 0 30px;
+    }
+  }
+  .real-time__container_bottom{
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    img{
+      position: relative;
+      width: 174px;
+      height: 115px;
+      display: block;
+      margin: 0;
+    }
+    h1{
+      float: left;
+      margin: 20px 0 0 0;
+      color: black;
+      text-align: left;
+      width: 100%;
+    }
+    p{
+      float: left;
+      margin: 20px 0 0 0;
+      color: black;
+      text-align: left;
+    }
+
+  }
+}
+
+
+

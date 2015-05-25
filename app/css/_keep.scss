@@ -1,0 +1,61 @@
+.keep{
+  width: 100%;
+  height: 400px ;
+  display: table;
+  z-index: 20;
+  overflow: hidden;
+  position: relative;
+  background-color: #f0445c;
+  .keep__container{
+    padding-top: 100px;
+    z-index: 20;
+    position: relative;
+    margin: 0 auto;
+    .keep__container__content{
+      position: relative;
+      margin: 0 auto;
+      width: 50%;
+      img{
+        position: relative;
+        width: 114px;
+        height: 114px;
+        display: block;
+        margin: 0;
+        left: 0;
+      }
+      h1{
+        float: left;
+        margin: 20px 0 0 0;
+        color: white;
+        text-align: left;
+      }
+      p{
+        float: left;
+        margin: 20px 0 0 0;
+        color: white;
+        text-align: left;
+      }
+      input{
+        float: left;
+        margin: 50px 0 0 0;
+        &.email{
+          color: white;
+          background-color:  #F0449C;
+          height: 40px;
+          width: 240px;
+          border: none;
+          @include border-radius(25px,25px);
+          @include box-shadow(#f0445c 0 0 15px);
+        }
+        &.send__btn{
+          color:  #f0445c;
+          background-color: white;
+          height: 40px;
+          width: 150px;
+          @include border-radius(25px,25px);
+          @include box-shadow(#f0445c 0 0 15px);
+        }
+      }
+    }
+  }
+}

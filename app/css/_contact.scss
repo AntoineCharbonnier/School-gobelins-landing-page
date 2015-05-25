@@ -5,7 +5,7 @@
   background-image: url('../img/07/Background.png');
   background-position: center center;
   @include background-size(cover);
-  // background-color: $contact-color;
+  background-color: grey;
 }
 .contact__container{
   vertical-align: middle; 
