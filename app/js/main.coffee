@@ -18,8 +18,8 @@ class App
     @pages[PagesTypes.DATA] = new (require './pages/DataPage')()
     @pages[PagesTypes.GROUPS] = new (require './pages/GroupsPage')()
     @pages[PagesTypes.KEEP] = new (require './pages/KeepPage')()
-    # @pages[PagesTypes.CONTACT]  = new (require './pages/ContactPage')()
-    # @pages[PagesTypes.FOOTER]  = new (require './pages/FooterPage')()
+    @pages[PagesTypes.CONTACT]  = new (require './pages/ContactPage')()
+    @pages[PagesTypes.FOOTER]  = new (require './pages/FooterPage')()
 
 
     @scrollManager.addPages @pages
