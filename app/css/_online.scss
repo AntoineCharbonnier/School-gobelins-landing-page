@@ -1,6 +1,6 @@
 .online{
   width: 100%;
-  height: 100%;
+  height: 880px;
   display: block;
   background-color: white;
   height: 100%;
@@ -27,10 +27,14 @@
       margin: 80px 0 0 0;
     }
     h1{
+      position: relative;
       float: left;
-      margin: 20px 0 0 -50px;
+      margin: 20px 0 0 0px;
+      width: 360px;
+      left: -70px;
     }
     p{
+      width: 360px;
       float: left;
       margin: 20px 0 0 -10px;
     }

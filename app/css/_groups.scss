@@ -1,6 +1,6 @@
 .groups{
   width: 100%;
-  height: 100%;
+  height: 1170px;
   display: block;
   background-color: white;
 }
@@ -10,7 +10,7 @@
   padding-top: 120px;
   .groups__container_content{
       position: relative;
-      width: 40%;
+      width: 30%;
       top: 100px;
       margin: 0 auto;
       float: left;
@@ -25,15 +25,16 @@
       h1{
         float: left;
         margin: 20px 0 0 0;
-        color: black;
+        // color: black;
         text-align: left;
         width: 100%;
       }
       p{
         float: left;
         margin: 20px 0 0 0;
-        color: black;
+        // color: black;
         text-align: left;
+        width: 360px;
       }
     }
   img{

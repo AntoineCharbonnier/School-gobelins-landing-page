@@ -10,36 +10,45 @@ html, body{
   z-index: 20;
   -webkit-font-smoothing: antialiased;
   min-width: 1170px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 h1{
-  font : normal 700 40px "MikadoRegular";
+  font : normal 500 30px "MikadoMedium";
   text-align : center;
+  color: #132038;
 }
 h2{
   font : normal 700 20px "MikadoRegular";
   text-transform: uppercase;
   text-align : center;
   z-index: 20;
+  color: #132038;
 }
 h3{
   font : normal 400 18px "MikadoRegular";
   text-align : center;
+  color: #132038;
 }
 h4{
   font : normal 400 15px "MikadoLight";
   text-align : center;
+  color: #132038;
 }
 h5{
   font : normal 400 14px "MikadoLight";
   text-align : center;
+  color: #132038;
 }
 h6{
   font : normal 400 12px "MikadoLight";
   text-align : center;
+  color: #132038;
 }
 p{
   font : normal 400 14px "MikadoRegular";
+  color: #aaaaaa;
 }
 input{
   font : normal 500 10px "MikadoRegular";

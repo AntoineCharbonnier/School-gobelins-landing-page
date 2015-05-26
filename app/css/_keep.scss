@@ -1,11 +1,11 @@
 .keep{
   width: 100%;
-  height: 400px ;
+  height: 500px ;
   display: table;
   z-index: 20;
   overflow: hidden;
   position: relative;
-  background-color: #f0445c;
+  background-color: #ea5652;
   .keep__container{
     padding-top: 100px;
     z-index: 20;
@@ -14,7 +14,7 @@
     .keep__container__content{
       position: relative;
       margin: 0 auto;
-      width: 50%;
+      width: 30%;
       img{
         position: relative;
         width: 114px;
@@ -28,32 +28,41 @@
         margin: 20px 0 0 0;
         color: white;
         text-align: left;
+        width: 260px;
       }
       p{
         float: left;
         margin: 20px 0 0 0;
         color: white;
         text-align: left;
+        width: 210px;
       }
       input{
         float: left;
         margin: 50px 0 0 0;
+        border: none;
+        box-shadow: none;
+        outline: 0;
+        color: white;
         &.email{
           color: white;
-          background-color:  #F0449C;
+          background-color: #f47673;
+          border: 1px solid #f69593;
           height: 40px;
           width: 240px;
           border: none;
           @include border-radius(25px,25px);
-          @include box-shadow(#f0445c 0 0 15px);
+          // @include box-shadow(#f0445c 0 0 15px);
         }
         &.send__btn{
           color:  #f0445c;
           background-color: white;
           height: 40px;
           width: 150px;
+          border: none;
+          outline: 0;
           @include border-radius(25px,25px);
-          @include box-shadow(#f0445c 0 0 15px);
+          // @include box-shadow(#f0445c 0 0 15px);
         }
       }
     }
