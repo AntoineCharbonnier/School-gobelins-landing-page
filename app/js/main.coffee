@@ -12,7 +12,7 @@ class App
     @pages[PagesTypes.INTRO]    = new (require './pages/IntroductionPage')()
     @pages[PagesTypes.MENU]   = new (require './pages/MenuPage')()
     # # @pages[PagesTypes.VIDEO]   = new (require './pages/VideoModule')()
-    @pages[PagesTypes.ONLINE]  = new (require './pages/OnlinePage')()
+    # @pages[PagesTypes.ONLINE]  = new (require './pages/OnlinePage')()
     @pages[PagesTypes.CONTROL]  = new (require './pages/ControlPage')()
     @pages[PagesTypes.REALTIME]  = new (require './pages/RealTimePage')()
     @pages[PagesTypes.DATA] = new (require './pages/DataPage')()
