@@ -2,7 +2,7 @@ class PagesTypes
 
   @INTRO    = 'introduction'
   @MENU   = 'menu'
-  # @VIDEO    = 'video'
+  @VIDEO    = 'video'
   @ONLINE  = 'online'
   @CONTROL  = 'control'
   @REALTIME  = 'real-time'

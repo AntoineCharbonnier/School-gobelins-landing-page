@@ -1,13 +1,13 @@
 .keep{
   width: 100%;
-  height: 500px ;
+  height: 420px ;
   display: table;
   z-index: 20;
   overflow: hidden;
   position: relative;
   background-color: #ea5652;
   .keep__container{
-    padding-top: 100px;
+    padding-top: 70px;
     z-index: 20;
     position: relative;
     margin: 0 auto;
@@ -35,7 +35,7 @@
         margin: 20px 0 0 0;
         color: white;
         text-align: left;
-        width: 210px;
+        width: 290px;
       }
       input{
         float: left;
@@ -44,21 +44,21 @@
         box-shadow: none;
         outline: 0;
         color: white;
+        height: 35px;
         &.email{
           color: white;
           background-color: #f47673;
           border: 1px solid #f69593;
-          height: 40px;
-          width: 240px;
+          width: 290px;
           border: none;
+          margin: 50px 30px 0 0px;
           @include border-radius(25px,25px);
           // @include box-shadow(#f0445c 0 0 15px);
         }
         &.send__btn{
           color:  #f0445c;
           background-color: white;
-          height: 40px;
-          width: 150px;
+          width: 100px;
           border: none;
           outline: 0;
           @include border-radius(25px,25px);
