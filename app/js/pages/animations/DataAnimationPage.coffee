@@ -13,7 +13,6 @@ class DataAnimationPage
 
   prepare: ->
     TweenMax.set [@bigIMg,@img,@h1,@p,@bg], autoAlpha: 0
-    TweenMax.set [@img,@h1,@p], x: 500
     
   show: ->
     t = 0
@@ -22,7 +21,7 @@ class DataAnimationPage
     @tm.to(@bg, .4, {autoAlpha: 1, ease: Ease.easeOut}, t+=.3)
     @tm.to( @bigIMg, 1.5, {autoAlpha: 1, ease: Ease.easeOut}, t+=.5)
     @tm.to( [@img,@h1,@p], .4, {autoAlpha: 0, ease: Ease.easeOut}, t+=.2)
-    @tm.staggerTo( [@img,@h1,@p], .5, {autoAlpha: 1,x: 0, ease: Ease.easeOut}, t)
+    @tm.staggerTo( [@img,@h1,@p], .5, {autoAlpha: 1, ease: Ease.easeIn}, t)
 
     @tm.play()
   hide: ->

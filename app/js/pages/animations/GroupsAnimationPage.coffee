@@ -13,8 +13,6 @@ class GroupsAnimationPage
 
   prepare: ->
     TweenMax.set [@bigIMg,@img,@h1,@p,@a], autoAlpha: 0
-    TweenMax.set [@img,@h1,@p], x: 500
-    TweenMax.set @a, y: 500
     
   show: ->
     t = 0
@@ -22,8 +20,8 @@ class GroupsAnimationPage
 
     @tm.to( @bigIMg, 1.5, {autoAlpha: 1, ease: Ease.easeOut}, t+=.5)
     @tm.to( [@img,@h1,@p], .1, {autoAlpha: 0, ease: Ease.easeOut}, t+=.1)
-    @tm.staggerTo( [@img,@h1,@p], .5, {autoAlpha: 1,x: 0, ease: Ease.easeOut}, t+=.2)
-    @tm.to( @a, .8, {autoAlpha: 1,y: 0, ease: Back.easeOut}, t+=.4)
+    @tm.staggerTo( [@img,@h1,@p], .5, {autoAlpha: 1, ease: Ease.easeIn}, t+=.2)
+    @tm.to( @a, .8, {autoAlpha: 1, ease: Back.easeIn}, t+=.4)
 
     @tm.play()
   hide: ->

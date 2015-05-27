@@ -21,16 +21,14 @@ class ContactAnimationPage
 
   prepare: ->
     TweenMax.set [@h1,@lefth2,@lefth3,@lefta, @righth2, @righth3, @righta], autoAlpha: 0
-    TweenMax.set [@h1,@lefth2,@lefth3,@lefta], x: -500
-    TweenMax.set [@righth2, @righth3, @righta], x: 500
     
   show: ->
     t = 0
     @tm = new TimelineMax paused: true
 
     @tm.to(@h1, .4, {autoAlpha: 1,x:0 ,ease: Ease.easeOut}, t+=.3)
-    @tm.staggerTo( [@lefth2,@lefth3,@lefta], .5, {autoAlpha: 1,x: 0, ease: Ease.easeOut}, t)
-    @tm.staggerTo( [@righth2, @righth3, @righta], .5, {autoAlpha: 1,x: 0, ease: Ease.easeOut}, t)
+    @tm.staggerTo( [@lefth2,@lefth3,@lefta], .5, {autoAlpha: 1, ease: Ease.easeIn}, t)
+    @tm.staggerTo( [@righth2, @righth3, @righta], .5, {autoAlpha: 1, ease: Ease.easeIn}, t)
 
     @tm.play()
   hide: ->

@@ -11,15 +11,15 @@ class OnlineAnimationPage
 
   prepare: ->
     TweenMax.set [@bigIMg,@img,@h1,@p], autoAlpha: 0
-    TweenMax.set [@img,@h1,@p], x: 500
+    TweenMax.set [@img,@h1,@p]
     
   show: ->
     t = 0
     @tm = new TimelineMax paused: true
 
-    @tm.to( @bigIMg, .8, {autoAlpha: 1, ease: Ease.easeOut}, t)
-    @tm.to( [@img,@h1,@p], .1, {autoAlpha: 0, ease: Ease.easeOut}, t+=.2)
-    @tm.staggerTo( [@img,@h1,@p], .5, {autoAlpha: 1,x: 0, ease: Ease.easeOut}, t)
+    @tm.to( @bigIMg, 1, {autoAlpha: 1, ease: Ease.easeOut}, t)
+    @tm.to( [@img,@h1,@p], .01, {autoAlpha: 0, ease: Ease.easeOut}, t+=.01)
+    @tm.staggerTo( [@img,@h1,@p], .8, {autoAlpha: 1, ease: Ease.easeIn}, t+=.4)
 
     @tm.play()
   hide: ->
