@@ -8,11 +8,11 @@
 
 Ce site explique le fonctionnement du projet HEP!, un projet réalisé durant la formation CRMA à Gobelins. 
 
-*Projet présenté à Futur-en-Seine 2015.*
+**_Projet présenté à Futur-en-Seine 2015._**
 
 ### FOR REAL
 
-[Landing page](http://antoinecharbonnier.fr/HEP/)
+[Landing page en action](http://antoinecharbonnier.fr/HEP/)
 
 [Repositorie du projet HEP!](https://github.com/AntoineCharbonnier/School-gobelins)
 
