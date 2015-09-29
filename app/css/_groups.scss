@@ -3,44 +3,46 @@
   height: 1010px;
   display: block;
   background-color: white;
+  display: table;
 }
 .groups__container{
   position: relative;
   display: table-cell;
   vertical-align: middle; 
-  padding-top: 120px;
-  width: 100vw;
+  padding: 0;
+  // width: 100vw;
+  .groups--alignement-container{
+    margin: 0 auto;
+  }
   .groups__container_content{
+    position: relative;
+    width: 30%;
+    top: 100px;
+    margin: 0 auto;
+    float: left;
+    img{
       position: relative;
-      width: 30%;
-      top: 100px;
-      margin: 0 auto;
-      float: left;
-      img{
-        position: relative;
-        width: 114px;
-        height: 114px;
-        display: block;
-        margin: 0;
-        left: 0;
-      }
-      h1{
-        display: block;
-        float: left;
-        margin: 20px 0 0 0;
-        // color: black;
-        text-align: left;
-        width: 400px;
-      }
-      p{
-        float: left;
-        margin: 20px 0 0 0;
-        // color: black;
-        text-align: left;
-        width: 360px;
-        line-height: 21px;
-      }
+      width: 114px;
+      height: 114px;
+      display: block;
+      margin: 0;
+      left: 0;
     }
+    h1{
+      display: block;
+      float: left;
+      margin: 20px 0 0 0;
+      text-align: left;
+      width: 400px;
+    }
+    p{
+      float: left;
+      margin: 20px 0 0 0;
+      text-align: left;
+      width: 360px;
+      line-height: 21px;
+    }
+  }
   img{
     position: relative;
     width: 100%;
