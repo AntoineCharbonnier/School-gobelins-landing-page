@@ -53,7 +53,25 @@
           border: none;
           margin: 50px 30px 0 0px;
           @include border-radius(25px,25px);
-          // @include box-shadow(#f0445c 0 0 15px);
+          &::-webkit-input-placeholder {
+             color: white;
+             padding: 0 0 0 15px;
+          }
+
+          &:-moz-placeholder { /* Firefox 18- */
+             color: white;  
+             padding: 0 0 0 15px;
+          }
+
+          &::-moz-placeholder {  /* Firefox 19+ */
+             color: white;  
+             padding: 0 0 0 15px;
+          }
+
+          &:-ms-input-placeholder {  
+             color: white;  
+             padding: 0 0 0 15px;
+          }
         }
         &.send__btn{
           color:  #f0445c;
@@ -62,7 +80,6 @@
           border: none;
           outline: 0;
           @include border-radius(25px,25px);
-          // @include box-shadow(#f0445c 0 0 15px);
         }
       }
     }
