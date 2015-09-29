@@ -27,18 +27,18 @@ html(lang="en")
         img(src="img/01/logo_blanc.svg" alt="Logo HEP")
         ul
           li
-            a(href)
+            a(href="#")
               h3 Comment ça marche ? 
           li
-            a(href)
+            a(href="#")
               h3 Qui sommes nous 
           li
-            a(href)
+            a(href="#")
               h3 S'inscrire 
     //- .video(data-scroll-offset="1070")
     //-   .video--container
-    //-     include templates/svgPlay
-    //-     include templates/svgPause
+    //-     //- include templates/svgPlay
+    //-     //- include templates/svgPause
     //-     video.fillWidth(loop='')
     //-       source(src='/video/startuppreview.mp4', type='video/mp4')
     //-       | Your browser does not support the video tag. I suggest you upgrade your browser.
@@ -88,24 +88,25 @@ html(lang="en")
             | Grâce aux exercices interactifs,
             | suivez et identifiez les élèves qui ont des difficultés.
           .clear
-      
+
     .data(data-scroll-offset="3600")
       .data__container
         .data__container_content--background
         .data__container_content
-          img(src="img/05/picto_identifiez.png")
-          h1 Identifiez les élèves en difficulté
-          p 
-            | Hep! vous informe de la compréhension globale 
-            | de la classe . Identifiez de façon personnalisé les 
-            | éleves qui recquirent le plus d’attention ! 
-          .clear
-        img(src="img/05/Classement_Eleves.png")
+          .data__text-container
+            img(src="img/05/picto_identifiez.png")
+            h1 Identifiez les élèves en difficulté
+            p 
+              | Hep! vous informe de la compréhension globale 
+              | de la classe . Identifiez de façon personnalisé les 
+              | éleves qui recquirent le plus d’attention ! 
+            .clear
+        img(src="img/05/Classement_Eleves.png" class="data--img")
         .clear
 
     .groups(data-scroll-offset="4300")
       .groups__container
-        img(src="img/06/Groupe_Img.png")
+        img(src="img/06/Groupe_Img.png" class="groups--img")
         .groups__container_content
           img(src="img/06/picto_groupe.png")
           h1 
@@ -139,12 +140,12 @@ html(lang="en")
           .contact__container__content--left
             h2 Antoine Charbonnier
             h3 Developpeur
-            a(href)
+            a(href="http://www.antoinecharbonnier.fr" target="_blank")
               h3 Say hello
           .contact__container__content--right
             h2 Philippe Neveu
             h3 Graphiste
-            a(href)
+            a(href="http://www.philippeneveu.fr/" target="_blank")
               h3 Say hello
     .footer(data-scroll-offset="5740")
       .footer__container

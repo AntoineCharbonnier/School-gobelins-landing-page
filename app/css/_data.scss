@@ -21,7 +21,8 @@
   }
   .data__container_content{
     position: relative;
-    width: 630px;
+    width: 50%;
+    max-width: 630px;
     top: 100px;
     margin: 0 auto;
     float: left;
@@ -34,29 +35,38 @@
       top: 0px;
       left: calc(100% - 170px);
     }
-    h1{
-      float: left;
-      text-align: right;
-      width: 280px;
-      margin: 150px auto 0;
+    .data__text-container{
       position: relative;
-      left: 207px;
-    }
-    p{
-      position: relative;
-      float: left;
-      margin: 15px auto 0 auto;
-      width: 300px;
-      left: 300px;
-      // color: black;
-      text-align: right;
+      width : 50%;
+      height: 100%;
+      float: right;
+      h1{
+        float: left;
+        text-align: right;
+        max-width: 280px;
+        width: 100%;
+        margin: 0;
+        position: relative;
+        left: 0;
+      }
+      p{
+        position: relative;
+        float: left;
+        margin: 15px auto 0 auto;
+        max-width: 300px;
+        width: 100%;
+        left: 0;
+        text-align: right;
+      }
     }
   }
-  img{
+  .data--img{
     position: relative;
+    max-width: 830px;
     width: 50%;
     top: -155px;
     float: left;
-    margin: 0 0 0 70px;
+    margin: 0 0 0 0px;
   }
 }
+

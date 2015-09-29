@@ -41,10 +41,14 @@
     }
   img{
     position: relative;
-    width: 546px;
+    width: 100%;
     height: 548px;
     float: left;
     margin: 0 200px 0 300px;
+  }
+  .groups--img{
+    max-width: 546px;
+    margin: 0 0 0 200px;
   }
   a{
     position: relative;
