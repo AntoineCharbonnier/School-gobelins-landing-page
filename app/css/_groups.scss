@@ -5,9 +5,11 @@
   background-color: white;
 }
 .groups__container{
+  position: relative;
   display: table-cell;
   vertical-align: middle; 
   padding-top: 120px;
+  width: 100vw;
   .groups__container_content{
       position: relative;
       width: 30%;
