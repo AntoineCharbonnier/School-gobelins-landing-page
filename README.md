@@ -27,3 +27,9 @@ npm install
 ```shell
 gulp watch
 ```
+
+### FRONT-END LANGUAGES
+
+⋅⋅* Jade
+⋅⋅* SASS
+⋅⋅* CoffeeScript
