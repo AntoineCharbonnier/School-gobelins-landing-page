@@ -33,3 +33,8 @@ gulp watch
   * Jade
   * SASS
   * CoffeeScript
+
+### LIBRARY
+
+  * GSAP
+  * JQuery
