@@ -30,6 +30,6 @@ gulp watch
 
 ### FRONT-END LANGUAGES
 
-⋅⋅* Jade
-⋅⋅* SASS
-⋅⋅* CoffeeScript
+  * Jade
+  * SASS
+  * CoffeeScript
