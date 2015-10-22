@@ -17,6 +17,15 @@ Ce site explique le fonctionnement du projet HEP!, un projet réalisé durant la
 [Repositorie du projet HEP!](https://github.com/AntoineCharbonnier/School-gobelins)
 
 
+
+## EN VIDEO
+
+[Teaser Video](https://vimeo.com/143251261)
+[Student Part Motion Video](https://vimeo.com/143251262)
+[Teacher Part Motion Video](https://vimeo.com/143251260)
+
+
+
 ### RUN 
 
 
